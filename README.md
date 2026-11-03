@@ -55,8 +55,8 @@ cd apps/web && npm start
 
 ## Layout
 
-- `apps/web` — Vite + React starter (dev port 5173)
-- `apps/coffee-app` — Vite + React starter (dev port 5174)
+- [`apps/web`](apps/web/README.md) — Vite + React starter (dev port 5173)
+- [`apps/coffee-app`](apps/coffee-app/README.md) — Vite + React starter (dev port 5174)
 - `packages/typescript-config` — shared TypeScript base config
 
 ## Lockfiles
