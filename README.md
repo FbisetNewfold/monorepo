@@ -18,15 +18,15 @@ From the repo root:
 
 | Command | Description |
 | --- | --- |
-| `npm run dev` | Start dev servers for all apps |
+| `npm start` | Start dev servers for all apps |
 | `npm run build` | Production build for all packages |
 | `npm run typecheck` | TypeScript check across the workspace |
 
 Run a single app:
 
 ```bash
-npm run dev -w @repo/web
-npm run dev -w @repo/coffee-app
+npm start -w @repo/web
+npm start -w @repo/coffee-app
 ```
 
 ## Layout
