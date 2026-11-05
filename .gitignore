@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite
+.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+db.sqlite3
+
+# PHP / Laravel
+vendor/
+
+# Turborepo
+.turbo
+
+# Test coverage
+coverage/
+*.lcov
+
+# npm
+.npm
+
+# OS
+.DS_Store

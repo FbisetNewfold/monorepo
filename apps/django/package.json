@@ -1,0 +1,11 @@
+{
+  "name": "@repo/django",
+  "private": true,
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": ".venv/bin/python manage.py runserver 8000",
+    "build": ".venv/bin/python manage.py check",
+    "typecheck": "echo 'No TypeScript in Django app'"
+  }
+}
